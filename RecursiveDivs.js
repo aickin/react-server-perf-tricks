@@ -19,6 +19,10 @@ class RecursiveDivs extends React.Component {
 		alert("clicked!");
 	}
 
+	componentCacheKey() {
+		return JSON.stringify(this.props);
+	}
+
 }
 
 export default RecursiveDivs;
