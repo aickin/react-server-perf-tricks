@@ -8,4 +8,4 @@ const render = () => {
   ReactDOMServer.renderToString(<RecursiveDivs depth={depth} breadth={breadth}/>);
 }
 
-export default [{name: "Baseline", fn:render}];
+export default [{name: "Babel Transforms", fn:render}];
