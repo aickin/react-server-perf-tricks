@@ -1,5 +1,5 @@
 import React from "react"
-import ReactDOMServer from "react-dom/server"
+import ReactDOMServer from "react/dist/react.min"
 import RecursiveDivs from "./RecursiveDivs"
 
 const depth = 4, breadth = 11;
