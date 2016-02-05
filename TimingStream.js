@@ -5,6 +5,7 @@ export default class TimingStream extends stream.Writable {
 		if (!this.firedFirstByte && data.length > 0) {
 			this.firedFirstByte = true;
 			this.emit("start");
+			// no need to emit "finish" explicitly; that is part of stream.Writable
 		}
 		next();
 	}
