@@ -1,7 +1,7 @@
 import Benchmark from "benchmark"
 import benchmarkedFns from "./benchmarkedFns"
 
-// add tests
+// add tests; can be a single test or an array of tests.
 let benchmarkedFnsArray = Array.isArray(benchmarkedFns) ? benchmarkedFns : [benchmarkedFns];
 
 const suite = new Benchmark.Suite();
