@@ -10,7 +10,6 @@ In the talk, I presented a small ReactJS benchmark, and I edited the code in sta
 
 ```
 git clone https://github.com/aickin/react-server-perf-tricks.git
-git checkout stage-0
 npm install
 ```
 
