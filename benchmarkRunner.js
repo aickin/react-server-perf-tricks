@@ -15,8 +15,8 @@ suite
 	for (let index = 0; index < this.length; index++) {
 		const benchmark = this[index];
 		console.log(benchmark.name);
-		console.log(`Mean:    ${Math.round(benchmark.stats.mean * 1000)} ms`);
-		console.log(`Std Dev: ${Math.round(benchmark.stats.deviation * 1000)} ms`);
+		console.log(`Mean:    ${Math.round(benchmark.stats.mean * 10000) / 10} ms`);
+		console.log(`Std Dev: ${Math.round(benchmark.stats.deviation * 10000) / 10} ms`);
 		console.log("");
 	}
 })

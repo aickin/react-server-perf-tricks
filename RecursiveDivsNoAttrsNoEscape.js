@@ -5,7 +5,7 @@ class RecursiveDivs extends React.Component {
 		const {depth, breadth} = this.props;
 
 		if (depth <= 0) {
-			return <div tabIndex="2>" hidden={true} width="30>">{"abc<efg>ij"}</div>;
+			return <div>{"abcdefghij"}</div>;
 		}
 
 		let children = [];
