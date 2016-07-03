@@ -21,3 +21,14 @@ Checkout the stage you want to run and then type `npm run benchmark`. For exampl
 git checkout stage-3
 npm run benchmark
 ```
+
+## Just the changes
+
+Only interested in exactly what changes between each stage?
+
+- [Stage 0 -> Stage 1](https://github.com/aickin/react-server-perf-tricks/compare/stage-0...stage-1)
+- [Stage 1 -> Stage 2](https://github.com/aickin/react-server-perf-tricks/compare/stage-1...stage-2)
+- [Stage 2 -> Stage 3](https://github.com/aickin/react-server-perf-tricks/compare/stage-2...stage-3)
+- [Stage 3 -> Stage 4](https://github.com/aickin/react-server-perf-tricks/compare/stage-3...stage-4)
+- [Stage 4 -> Stage 5](https://github.com/aickin/react-server-perf-tricks/compare/stage-4...stage-5)
+- [Stage 5 -> Stage 6](https://github.com/aickin/react-server-perf-tricks/compare/stage-5...stage-6)
